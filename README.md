@@ -11,5 +11,7 @@ Limitations right now:
 
 ## Usage 
 - Install used modules
+- Prepare a input.bmp file in the same directory with 512px with
 - call "python image_to_sound.py"
+- listen to output.wav and have a look to a audio spectrum analyser with waterfall view
 
