@@ -10,7 +10,7 @@ samplerate = 16000
 
 path = '.'
 
-image= imageio.imread(os.path.join(path,'nec7.bmp'))
+image= imageio.imread(os.path.join(path,'input.bmp'))
 gimage = rgb2gray(image)
 iimage = invert(gimage)
 i=1
