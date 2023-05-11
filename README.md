@@ -6,11 +6,10 @@ Output will be a soundfile where the image is "encoded" in the spectrum.
 In fact its an easy spectrumpainter.
 
 Limitations right now:
-- not usable for ham radio because the used bandwith is to big
+- Not realy usable for ham radio because the used bandwith is to big.
 - I would expect sound as a noise. Currently its an "hammering" sound.
 
 ## Usage 
-Install used modules
-call
-python image_to_sound.py
+- Install used modules
+- call "python image_to_sound.py"
 
