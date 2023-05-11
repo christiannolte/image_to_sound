@@ -10,8 +10,16 @@ Limitations right now:
 - I would expect sound as a noise. Currently its an "hammering" sound.
 
 ## Usage 
-- Install used modules
+
+### Install used modules (steps done in Python3.5 other versions may require other steps)
+- python -m pip install --upgrade pip
+- pip install scipy
+- pip install scikit-image
+
+### Execute
 - Prepare a input.bmp file in the same directory with 512px with
 - call "python image_to_sound.py"
+
+### Enjoy
 - listen to output.wav and have a look to a audio spectrum analyser with waterfall view
 
