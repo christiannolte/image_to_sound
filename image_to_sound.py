@@ -17,7 +17,7 @@ i=1
 data=np.array([])
 for zeile in reversed(iimage):
     print("Zeile: "+str(i))
-    sniplet=np.fft.irfft(zeile)
+    sniplet=np.fft.irfft(zeile,len(zeile))
     for j in sniplet:
         data=np.append(data,np.real(32000.0*j))
     i=i+1
