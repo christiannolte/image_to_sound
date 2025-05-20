@@ -16,6 +16,10 @@ Limitations right now:
 - pip install scipy
 - pip install scikit-image
 
+or simple
+-pip install -r requirements.txt
+  
+
 ### Execute
 - Prepare a input.bmp file in the same directory with 512px witth. When using GIMP use 24Bit RGB format to store.
 - call "python image_to_sound.py"
